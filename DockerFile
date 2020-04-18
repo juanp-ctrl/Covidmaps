@@ -1,0 +1,9 @@
+#Levantar contenedores
+sudo apt update
+sudo apt install docker.io -y
+sudo docker search "key word"
+sudo docker pull "image"
+
+#Iniciar contenedore
+sudo docker run -it "image"
+sudo docker ps -a
