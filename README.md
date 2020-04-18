@@ -3,6 +3,7 @@ Nuestra app es creada para ayudar a la población de Medellín a mantenerse info
 # Arquitectura
 ·Servidor y Firewall
 Es un servidor de AWS montado con una imagen de ubuntu 18.04, en este correra Docker y el servicio HTTP que utilizara nuestra aplicación, este servidor fue montado en un grupo de seguridad de AWS que permite los puertos 22, 80 y 443 e internamente en el servidor por medio de UFW se permitieron los protocolos SSH, HTTP, HTTPS y Apache Full.
+
 ·Contenedor
 Para los contenedores usaremos Docker montado en el servidor, su función sera mantener la información de cada usuario en un contenedor unico y para esto montamos la configuración basica.
 ·Dockerfile
